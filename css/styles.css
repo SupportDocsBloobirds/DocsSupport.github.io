@@ -10096,7 +10096,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(25, 145, 255, 0.9) 0%, rgba(25, 145, 255, 0.8) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10105,13 +10105,17 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+.active-cyan-3 input[type=text] {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
 @media (min-width: 992px) {
-  header.masthead {
+  /* header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    /* min-height: 40rem;
     padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
+    padding-bottom: 0; */
+  } */
   header.masthead p {
     font-size: 1.15rem;
   }
