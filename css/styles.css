@@ -10029,6 +10029,16 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
+
+}
+.title {
+  @include responsive-font-size(4rem);
+  margin: 0 0 .5em;
+}
+.article {
+  background: white;
+  box-shadow: 0 0 10px rgba(black, .25);
+  padding: 20px 25px;
 }
 
 #mainNav {
